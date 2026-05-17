@@ -30,19 +30,21 @@ Si utilizas la terminal o línea de comandos:
 
 1. Clona este repositorio:
    ```bash
-   git clone [URL_DE_TU_REPOSITORIO]
-Navega al directorio del proyecto:
-
-Bash
+   git clone https://github.com/Onlyme2005/Supermercado.git
+   
+Navega al directorio del proyecto1:
+   ```bash
 cd Supermercado
-Compila los archivos Java:
 
-Bash
+Compila los archivos Java:
+   ```bash
 javac *.java
+
 Ejecuta la clase principal:
 
-Bash
+   ```bash
 java Main
+
 (Nota: Si usas VS Code con el Extension Pack for Java, simplemente abre Main.java y haz clic en el botón "Run").
 
 ## Demostración
