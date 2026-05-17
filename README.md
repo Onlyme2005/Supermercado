@@ -32,16 +32,15 @@ Si utilizas la terminal o línea de comandos:
    ```bash
    git clone https://github.com/Onlyme2005/Supermercado.git
    
-Navega al directorio del proyecto:
+2. Navega al directorio del proyecto:
    ```bash
    cd Supermercado
 
-Compila los archivos Java:
+3. Compila los archivos Java:
    ```bash
    javac *.java
 
-Ejecuta la clase principal:
-
+4. Ejecuta la clase principal:
    ```bash
    java Main
 
