@@ -35,7 +35,6 @@ public class Main {
         Cliente cliente2 = new Cliente("Cliente Jesus", carritoCliente2);
 
         // 4. REGISTRO DEL TIEMPO INICIAL DEL SISTEMA
-        // Esto es crucial para la rúbrica: calcular el tiempo total.
         long tiempoInicial = System.currentTimeMillis();
 
         // 5. CREACIÓN DE CAJERAS (NUESTROS HILOS)

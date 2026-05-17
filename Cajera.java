@@ -41,7 +41,6 @@ public class Cajera extends Thread {
             // Simulamos el tiempo que tarda la cajera en escanear el producto
             this.esperarXSegundos(producto.getTiempoProcesamiento());
 
-            // Mostramos la información exigida por la rúbrica
                 System.out.println("Cajera " + this.nombre + " proceso " + producto.getNombre() + 
                                 " (Costo: $" + producto.getPrecio() + ") " +
                                 " -> Tiempo transcurrido: " + (System.currentTimeMillis() - this.tiempoInicial) / 1000 + " seg");
